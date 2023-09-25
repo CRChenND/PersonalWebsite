@@ -19,22 +19,16 @@ const FontFiraCode = Fira_Code({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Jeff Jadulco | Game and Web Developer',
-    template: '%s | Jeff Jadulco',
+    default: 'Chaoran Chen | HCI, Security, and privacy researcher',
+    template: '%s | Chaoran Chen',
   },
-  description: 'Game and Web Developer',
+  description: 'HCI, Security, and privacy researcher',
   openGraph: {
-    title: 'Jeff Jadulco',
-    description: 'Game and Web Developer',
-    url: 'https://jeffjadulco.com',
-    siteName: 'Jeff Jadulco',
-    images: [
-      {
-        url: 'https://jeffjadulco.com/static/og/default.png',
-        width: 1280,
-        height: 675,
-      },
-    ],
+    title: 'Chaoran Chen',
+    description: 'HCI, Security, and privacy researcher',
+    url: 'https://chaoranchen.com',
+    siteName: 'Chaoran Chen',
+    images: [],
     locale: 'en-US',
     type: 'website',
   },
@@ -47,8 +41,8 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    creator: '@jeffjadulco',
-    title: 'Jeff Jadulco',
+    creator: '@CharlieCRChen',
+    title: 'Chaoran Chen',
     card: 'summary_large_image',
   },
   icons: {
