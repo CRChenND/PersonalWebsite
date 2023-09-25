@@ -1,9 +1,9 @@
 {
-  "name": "chaoran-chen-personal-website",
+  "name": "jeffjadulco.com",
   "private": true,
   "description": "My personal website made using Next.js",
-  "version": "1.0.0",
-  "author": "Chaoran Chen <cchen25@nd.edu>",
+  "version": "3.0.0",
+  "author": "Jeff Jadulco <hey@jeffjadulco.com>",
   "dependencies": {
     "@formspree/react": "^2.4.1",
     "next": "^13.4.9",
@@ -55,6 +55,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CRChenND/PersonalWebsite.git"
+    "url": "https://github.com/jeffjadulco/jeffjadulco.com.git"
   }
 }

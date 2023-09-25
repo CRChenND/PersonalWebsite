@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import { Fira_Code, Inter } from 'next/font/google'
+import { Analytics } from '../components/analytics'
 import { Footer } from '../components/footer'
 import { Header } from '../components/header'
 import { MobileNav } from '../components/mobileNav'
@@ -18,15 +19,15 @@ const FontFiraCode = Fira_Code({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Chaoran Chen | HCI + security & privacy researcher',
-    template: '%s | Chaoran Chen',
+    default: 'Jeff Jadulco | Game and Web Developer',
+    template: '%s | Jeff Jadulco',
   },
-  description: 'HCI + security & privacy researcher',
+  description: 'Game and Web Developer',
   openGraph: {
-    title: 'Chaoran Chen',
-    description: 'HCI + security & privacy researcher',
+    title: 'Jeff Jadulco',
+    description: 'Game and Web Developer',
     url: 'https://jeffjadulco.com',
-    siteName: 'Chaoran Chen',
+    siteName: 'Jeff Jadulco',
     images: [
       {
         url: 'https://jeffjadulco.com/static/og/default.png',
@@ -47,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     creator: '@jeffjadulco',
-    title: 'Chaoran Chen',
+    title: 'Jeff Jadulco',
     card: 'summary_large_image',
   },
   icons: {
@@ -66,11 +67,19 @@ export default function RootLayout({
       >
         <MobileNav />
         <Header />
-        <main className="container flex-grow max-w-screen-lg px-5 m-auto mt-0 sm:px-12 md:px-20">
+        <main className="container flex-grow max-w-screen-lg px-5 m-auto mt-16 sm:px-12 md:px-20">
           {children}
         </main>
         <Footer />
+        <Analytics />
+        <BackgroundNoise />
       </body>
     </html>
+  )
+}
+
+function BackgroundNoise() {
+  return (
+    <div className="absolute inset-0 -z-20 opacity-80 h-full mix-blend-overlay noise-bg"></div>
   )
 }
