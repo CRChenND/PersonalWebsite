@@ -10,10 +10,9 @@ const publicationsData = [
   {
     title: 'An Empathy-Based Sandbox Approach to Bridge Attitudes, Goals, Knowledge, and Behaviors in the Privacy Paradox',
     authors: ['Chaoran Chen', 'Weijun Li', 'Wenxin Song', 'Yaxing Yao', 'Yanfang Ye', 'Toby Jia-jun Li'],
-    venue: 'Submitted to CHI conference on Human Factors in Computing Systems (CHI 2024)',
+    venue: 'Arxiv preprint',
     image: 'empathy_privacy.png',
     paperLink: '',
-    videoLink: 'https://www.youtube.com/watch?v=GDO5anAjTG8&feature=youtu.be'
   },
   {
     title: 'Prompt Learning Unlocked for App Promotion',
