@@ -3,7 +3,7 @@ import React from 'react'
 import { Blob } from '../components/atoms'
 import { Blog24, Project24 } from '../components/icons'
 import profile_photo from '../public/images/profile_photo.png'
-import { GitHub24, MailAt24, Twitter24 } from '../components/icons'
+import { GitHub24, MailAt24, Twitter24, GoogleScholar24 } from '../components/icons'
 import PublicationList from '../components/publicationList';
 
 const publicationsData = [
@@ -125,6 +125,18 @@ export default async function Page() {
                   className="focus:text-accent"
                 >
                   <Twitter24 className="transition-transform ease-in-out hover:-translate-y-1 hover:text-accent" />
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://scholar.google.com/citations?user=-SO-GtcAAAAJ&hl=en&oi=ao"
+                  aria-label="Visit Google Scholar profile"
+                  title="Visit Google Scholar profile"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus:text-accent"
+                >
+                  <GoogleScholar24 className="transition-transform ease-in-out hover:-translate-y-1 hover:text-accent" />
                 </a>
               </span>
             </div>

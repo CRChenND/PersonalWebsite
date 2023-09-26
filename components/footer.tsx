@@ -1,5 +1,5 @@
 import { NavLink } from './atoms'
-import { GitHub24, MailAt24, Twitter24 } from './icons'
+import { GitHub24, MailAt24, Twitter24, GoogleScholar24} from './icons'
 
 const routes = [
   {
@@ -69,6 +69,18 @@ export function Footer() {
                   className="focus:text-accent"
                 >
                   <Twitter24 className="transition-transform ease-in-out hover:-translate-y-1 hover:text-accent" />
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://scholar.google.com/citations?user=-SO-GtcAAAAJ&hl=en&oi=ao"
+                  aria-label="Visit Google Scholar profile"
+                  title="Visit Google Scholar profile"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus:text-accent"
+                >
+                  <GoogleScholar24 className="transition-transform ease-in-out hover:-translate-y-1 hover:text-accent" />
                 </a>
               </span>
             </div>
