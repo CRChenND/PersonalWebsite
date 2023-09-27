@@ -12,7 +12,7 @@ const publicationsData = [
     authors: ['Chaoran Chen', 'Weijun Li', 'Wenxin Song', 'Yaxing Yao', 'Yanfang Ye', 'Toby Jia-jun Li'],
     venue: 'Arxiv preprint',
     image: 'empathy_privacy.png',
-    paperLink: '',
+    paperLink: 'https://arxiv.org/abs/2309.14510',
   },
   {
     title: 'Prompt Learning Unlocked for App Promotion',
