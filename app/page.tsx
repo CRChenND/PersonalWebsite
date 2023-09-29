@@ -160,7 +160,7 @@ export default async function Page() {
               My work falls in the intersection of <strong>Human-Computer Interaction, Cybersecurity, Graph Learning, and Usable Privacy</strong>, 
               where I use human-centered methods to design, 
               build, and evaluate human-AI collaborative systems to strengthen the 
-              trustworthiness and explanability, ranging from mobile ads promotion to 
+              trustworthiness and explainability, ranging from mobile ads promotion to 
               privacy paradox. Besides, I’m also passionate about leveraging the 
               state-of-the-art AI techniques (e.g. generative models) to benefit a variety of human needs 
               and optimizing user experience accordingly.
