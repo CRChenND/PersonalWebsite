@@ -17,9 +17,9 @@ const publicationsData = [
   {
     title: 'Prompt Learning Unlocked for App Promotion',
     authors: ['Zhongyu Ouyang', 'Shifu Hou', 'Shang Ma', 'Chaoran Chen', 'Chunhui Zhang', 'Toby Li', 'Xusheng Xiao', 'Chuxu Zhang', 'Yanfang Ye'],
-    venue: 'International Workshop on Resource-Efficient Learning for Knowledge Discovery (RelKD 2023)',
+    venue: 'NeurIPS 2023 GLFrontier workshop',
     image: 'prompt_ad_promotion.png',
-    paperLink: '',
+    paperLink: 'https://zyouyang.github.io/assets/publications/PromptPromotion.pdf',
   },
   {
     title: 'ARDW: An Augmented Reality Workbench for Printed Circuit Board Debugging',
