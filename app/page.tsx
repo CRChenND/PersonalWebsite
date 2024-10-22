@@ -18,7 +18,7 @@ const publicationsData = [
     title: 'Symbolic Prompt Tuning Completes the App Promotion Graph',
     authors: ['Zhongyu Ouyang', 'Chunhui Zhang', 'Shifu Hou', 'Shang Ma', 'Chaoran Chen', 'Chunhui Zhang', 'Toby Li', 'Xusheng Xiao', 'Chuxu Zhang', 'Yanfang Ye'],
     venue: 'Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2024)',
-    image: 'prompt_ad_promotion.png',
+    image: 'pkdd.png',
     paperLink: 'https://zyouyang.github.io/assets/publications/PromptPromotion.pdf',
   },
   {
@@ -43,27 +43,6 @@ const publicationsData = [
     image: 'service_robot.png',
     paperLink: 'https://dl.acm.org/doi/pdf/10.1145/3411764.3445767',
     videoLink: 'https://www.youtube.com/watch?v=0iErmMi7Q5M'
-  },
-  {
-    title: 'Measuring street enclosure and its influence to human physiology through wearable sensors',
-    authors: ['Ercument Gorgul', 'Chaoran Chen', 'Katrina Karyee Wu', 'Yifan Guo'],
-    venue: 'In the Adjunct Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers (Ubicomp/ISWC 2019)',
-    image: 'street_enclosure.png',
-    paperLink: 'https://dl.acm.org/doi/abs/10.1145/3341162.3343794'
-  },
-  {
-    title: 'Mapping human response to street experience: a study on comparing walking with cycling on streets through wearable sensors',
-    authors: ['Ercument Gorgul', 'Liuyi Zhang', 'Franziska Günther', 'Chaoran Chen'],
-    venue: 'The Adjunct Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers (Ubicomp/ISWC 2019)',
-    image: 'heartrate_gsr_gps.png',
-    paperLink: 'https://dl.acm.org/doi/abs/10.1145/3341162.3343793'
-  },
-  {
-    title: 'A Visualization Based Analysis to Assist Rebalancing Issues Related to Last Mile Problem for Bike Sharing Programs in China: A Big-Data Case Study on Mobike',
-    authors: ['Ercument Gorgul', 'Chaoran Chen'],
-    venue: 'The 1st International Conference on Computational Design and Robotic Fabrication (CDRF 2019)',
-    image: 'mobike_viz.png',
-    paperLink: 'https://link.springer.com/chapter/10.1007/978-981-13-8153-9_13'
   },
   {
     title: 'AI-Sketcher: A Deep Generative Model for Producing High-Quality Sketches',
@@ -158,7 +137,7 @@ export default async function Page() {
             </h1>
             <br/>
             <h4 className="font-medium text-fore-subtle">
-              I’m a second-year PhD student in the Department of <a href='https://cse.nd.edu/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Computer Science and Engineering</a> at the <a href="https://www.nd.edu/" className="font-medium text-teal-600 dark:text-teal-600 hover:underline">University of Notre Dame</a>. 
+              I’m a third-year PhD student in the Department of <a href='https://cse.nd.edu/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Computer Science and Engineering</a> at the <a href="https://www.nd.edu/" className="font-medium text-teal-600 dark:text-teal-600 hover:underline">University of Notre Dame</a>. 
               I am co-advised by <a href='https://toby.li/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Dr. Toby Jia-Jun Li</a> and <a href='https://yes-lab.org/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Dr. Fanny Yanfang Ye</a>. 
               Before joining ND, I received my M.S degrees in Educational Technology and 
               Applied Learning Science from Carnegie Mellon University. 
@@ -189,9 +168,19 @@ export default async function Page() {
           - 🇩🇪 Visited Max Planck Institute for Security and Privacy in Bochum, Germany and conducted a 3-month research internship advised by <a href='https://mhaidli.github.io/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Abraham Mhaidli</a>.
         </li>
         <li>
+          <strong>08/2024</strong>
+          <br/>
+          - 📃 Our paper “Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph” has been accepted in NDSS 2025.
+        </li>
+        <li>
           <strong>05/2024</strong>
           <br/>
           - 📃 Attended CHI 2024 in Hawaii and presented our paper: "An Empathy-Based Sandbox Approach to Bridge the Privacy Gap among Attitudes, Goals, Knowledge, and Behaviors".
+        </li>
+        <li>
+          <strong>04/2024</strong>
+          <br/>
+          - 🏅 Won the third prize of <a href='https://ethics.nd.edu/news-and-events/news/notre-dame-ibm-technology-ethics-lab-hosts-first-ever-hackathon/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Tech Ethics Hackathon</a> hosted by Notre Dame-IBM Technology Ethics Lab
         </li>
         <li>
           <strong>05/2023</strong>
@@ -213,7 +202,7 @@ export default async function Page() {
         <li>
           <strong>08/2022</strong>
           <br/>
-          - 🎓 Graduate from METALS program at Carnegie Mellon University and moved to Notre Dame to start my Ph.D. study in HCI, Cybersecurity, and Privacy.
+          - 🎓 Graduated from METALS program at Carnegie Mellon University and moved to Notre Dame to start my Ph.D. study in HCI, Cybersecurity, and Privacy.
         </li>
       </ul>
 
