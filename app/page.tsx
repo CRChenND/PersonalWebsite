@@ -8,6 +8,20 @@ import PublicationList from '../components/publicationList';
 
 const publicationsData = [
   {
+    title: 'CLEAR: Towards Contextual LLM-Empowered Privacy Policy Analysis and Risk Generation for Large Language Model Applications',
+    authors: ['Chaoran Chen', 'Daodao Zhou', 'Yanfang Ye', 'Toby Jia-jun Li', 'Yaxing Yao'],
+    venue: 'Arxiv preprint',
+    image: 'clear.png',
+    paperLink: 'https://arxiv.org/pdf/2410.13387',
+  },
+  {
+    title: 'Why am I seeing this: Democratizing End User Auditing for Online Content Recommendations',
+    authors: ['Chaoran Chen', 'Leyang Li', 'Luke Cao', 'Yanfang Ye', 'Tianshi Li', 'Yaxing Yao', 'Toby Jia-jun Li'],
+    venue: 'Arxiv preprint',
+    image: 'adAudit.png',
+    paperLink: 'https://arxiv.org/pdf/2410.04917',
+  },
+  {
     title: 'Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph',
     authors: ['Shang M', 'Chaoran Chen', 'Shao Yang', 'Shifu Hou', 'Toby Jia-Jun Li', 'Xusheng Xiao', 'Tao Xie', 'Yanfang Ye'],
     venue: 'Network and Distributed System Security Symposium ((NDSS 2025)',
