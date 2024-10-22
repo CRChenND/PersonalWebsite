@@ -4,9 +4,6 @@ module.exports = {
   },
   images: {
     domains: [
-      'i.scdn.co', // spotify
-      'a.ltrbxd.com', // letterboxd
-      'steamcdn-a.akamaihd.net', // steam
     ],
   },
   headers() {
@@ -28,16 +25,7 @@ module.exports = {
         ],
       },
     ];
-  },
-  redirects() {
-    return [
-      {
-        source: '/gamedev',
-        destination: 'https://gamedev.jeffjadulco.com',
-        permanent: false,
-      },
-    ]
-  },
+  }
 }
 
 // https://securityheaders.com
