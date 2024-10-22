@@ -6,18 +6,25 @@ import PublicationList from '../../components/publicationList';
 
 const publicationsData = [
   {
-    title: 'An Empathy-Based Sandbox Approach to Bridge Attitudes, Goals, Knowledge, and Behaviors in the Privacy Paradox',
-    authors: ['Chaoran Chen', 'Weijun Li', 'Wenxin Song', 'Yaxing Yao', 'Yanfang Ye', 'Toby Jia-jun Li'],
-    venue: 'Arxiv preprint',
-    image: 'empathy_privacy.png',
-    paperLink: 'https://arxiv.org/abs/2309.14510',
+    title: 'Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph',
+    authors: ['Shang M', 'Chaoran Chen', 'Shao Yang', 'Shifu Hou', 'Toby Jia-Jun Li', 'Xusheng Xiao', 'Tao Xie', 'Yanfang Ye'],
+    venue: 'Network and Distributed System Security Symposium ((NDSS 2025)',
+    image: 'ndss25.png',
+    paperLink: 'https://arxiv.org/pdf/2410.07588',
   },
   {
-    title: 'Prompt Learning Unlocked for App Promotion',
-    authors: ['Zhongyu Ouyang', 'Shifu Hou', 'Shang Ma', 'Chaoran Chen', 'Chunhui Zhang', 'Toby Li', 'Xusheng Xiao', 'Chuxu Zhang', 'Yanfang Ye'],
-    venue: 'NeurIPS 2023 GLFrontier workshop',
+    title: 'Symbolic Prompt Tuning Completes the App Promotion Graph',
+    authors: ['Zhongyu Ouyang', 'Chunhui Zhang', 'Shifu Hou', 'Shang Ma', 'Chaoran Chen', 'Chunhui Zhang', 'Toby Li', 'Xusheng Xiao', 'Chuxu Zhang', 'Yanfang Ye'],
+    venue: 'Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2024)',
     image: 'prompt_ad_promotion.png',
     paperLink: 'https://zyouyang.github.io/assets/publications/PromptPromotion.pdf',
+  },
+  {
+    title: 'An Empathy-Based Sandbox Approach to Bridge Attitudes, Goals, Knowledge, and Behaviors in the Privacy Paradox',
+    authors: ['Chaoran Chen', 'Weijun Li', 'Wenxin Song', 'Yaxing Yao', 'Yanfang Ye', 'Toby Jia-jun Li'],
+    venue: 'In the Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (CHI 2024)',
+    image: 'empathy_privacy.png',
+    paperLink: 'https://dl.acm.org/doi/pdf/10.1145/3613904.3642363',
   },
   {
     title: 'ARDW: An Augmented Reality Workbench for Printed Circuit Board Debugging',
@@ -45,7 +52,7 @@ const publicationsData = [
   {
     title: 'Mapping human response to street experience: a study on comparing walking with cycling on streets through wearable sensors',
     authors: ['Ercument Gorgul', 'Liuyi Zhang', 'Franziska Günther', 'Chaoran Chen'],
-    venue: 'In the Adjunct Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers (Ubicomp/ISWC 2019)',
+    venue: 'The Adjunct Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers (Ubicomp/ISWC 2019)',
     image: 'heartrate_gsr_gps.png',
     paperLink: 'https://dl.acm.org/doi/abs/10.1145/3341162.3343793'
   },
@@ -62,7 +69,7 @@ const publicationsData = [
     venue: 'The thirty-third AAAI conference on artificial intelligence (AAAI 2019)',
     image: 'ai_sketcher.png',
     paperLink: 'https://idvxlab.com/papers/2019AAAI_Sketcher_Cao.pdf'
-  },
+  }
 ];
 
 
