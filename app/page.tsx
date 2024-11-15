@@ -179,7 +179,7 @@ export default async function Page() {
         <li>
           <strong>10/2024</strong>
           <br/>
-          - 🇩🇪 Visited Max Planck Institute for Security and Privacy in Bochum, Germany and conducted a 3-month research internship advised by <a href='https://mhaidli.github.io/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Abraham Mhaidli</a>.
+          - 🇩🇪 Worked as a research intern at the Max Planck Institute for Security and Privacy in Bochum, Germany, under the mentorship of <a href='https://mhaidli.github.io/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Abraham Mhaidli</a>.
         </li>
         <li>
           <strong>08/2024</strong>
