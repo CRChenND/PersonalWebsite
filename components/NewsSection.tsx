@@ -8,7 +8,7 @@ const newsItems = [
   },
   {
     date: '03/2025',
-    content: <>- 📃 Our paper “CLEAR: Towards Contextual LLM-Empowered Privacy Policy Analysis...” has been accepted in NDSS 2025.</>
+    content: <>- 📃 Our paper “CLEAR: Towards Contextual LLM-Empowered Privacy Policy Analysis...” has been accepted in IUI 2025.</>
   },
   {
     date: '10/2024',
