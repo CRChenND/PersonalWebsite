@@ -154,17 +154,11 @@ export default async function Page() {
             <h4 className="font-medium text-fore-subtle">
               I’m a third-year PhD student in the Department of <a href='https://cse.nd.edu/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Computer Science and Engineering</a> at the <a href="https://www.nd.edu/" className="font-medium text-teal-600 dark:text-teal-600 hover:underline">University of Notre Dame</a>. 
               I am co-advised by <a href='https://toby.li/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Dr. Toby Jia-Jun Li</a> and <a href='https://yes-lab.org/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Dr. Fanny Yanfang Ye</a>. 
-              Before joining ND, I received my M.S degrees in Educational Technology and 
+              Before joining ND, I received my M.S. degrees in Educational Technology and 
               Applied Learning Science from Carnegie Mellon University. 
-              I received B.Eng in Industrial Design from Tongji University.
+              I received my Bachelor's degree in Industrial Design from Tongji University.
               <br/><br/>
-              My work falls in the intersection of <strong>Human-Computer Interaction, Cybersecurity, Graph Learning, and Usable Privacy</strong>, 
-              where I use human-centered methods to design, 
-              build, and evaluate human-AI collaborative systems to strengthen the 
-              trustworthiness and explainability, ranging from mobile ads promotion to 
-              privacy paradox. Besides, I’m also passionate about leveraging the 
-              state-of-the-art AI techniques (e.g. generative models) to benefit a variety of human needs 
-              and optimizing user experience accordingly.
+              My research lies at the intersection of <strong>Human-Computer Interaction, Cybersecurity, Usable Privacy, and Large Language Models (LLMs)</strong>. I use human-centered design methods to investigate the dual relationship between LLMs and privacy: how LLMs can help users better understand and manage their privacy (LLM for Privacy), and how privacy concerns should shape the design of LLMs themselves (Privacy for LLM). From building empathy-based sandbox environments that enable experiential privacy learning to developing contextual privacy risk assessments and real-time intervention tools, my work aims to transform LLMs from potential privacy threats into active privacy-enhancing agents. I also explore how emerging AI technologies, including generative models, can be responsibly designed to meet diverse human needs while safeguarding autonomy, transparency, and data security.
             </h4>
           </div>
         </div>
