@@ -170,59 +170,7 @@ export default async function Page() {
         </div>
       </div>
 
-      <div className="flex items-center mt-24 mb-8 space-x-3">
-        <span className="mt-3 mb-2 uppercase tracking-[.2em] text-accent text-teal-600">
-          NEWS
-        </span>
-      </div>
-
       <NewsSection />
-
-      {/* <ul className='flex-col space-y-4'>
-        <li>
-          <strong>10/2024</strong>
-          <br/>
-          - 🇩🇪 Worked as a research intern at the Max Planck Institute for Security and Privacy in Bochum, Germany, under the mentorship of <a href='https://mhaidli.github.io/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Abraham Mhaidli</a>.
-        </li>
-        <li>
-          <strong>08/2024</strong>
-          <br/>
-          - 📃 Our paper “Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph” has been accepted in NDSS 2025.
-        </li>
-        <li>
-          <strong>05/2024</strong>
-          <br/>
-          - 📃 Attended CHI 2024 in Hawaii and presented our paper: "An Empathy-Based Sandbox Approach to Bridge the Privacy Gap among Attitudes, Goals, Knowledge, and Behaviors".
-        </li>
-        <li>
-          <strong>04/2024</strong>
-          <br/>
-          - 🏅 Won the third prize of <a href='https://ethics.nd.edu/news-and-events/news/notre-dame-ibm-technology-ethics-lab-hosts-first-ever-hackathon/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Tech Ethics Hackathon</a> hosted by Notre Dame-IBM Technology Ethics Lab
-        </li>
-        <li>
-          <strong>05/2023</strong>
-          <br/>
-          - 🏫 Participanted in the Post-CHI Summer School on Usable Privacy and Security at Technical University of Munich.
-        </li>
-        <li>
-          <strong>04/2023</strong>
-          <br/>
-          - 📃 Attended CHI 2023 in Hamburg and presented our work about empathy privacy in one of the CHI workshops:
-          "Privacy Interventions and Education (PIE): Encouraging Privacy Protective Behavioral Change Online".
-        </li>
-        <li>
-          <strong>10/2022</strong>
-          <br/>
-          - 🏅 Attended MobileHCI 2022 in Vancuver as a SV and participanted in the Student 
-          Design Competition. Our work <a className='text-teal-600' href='https://youtu.be/IR4Ylpa14VQ'>Taptag</a> won the Best Implementation Award!
-        </li>
-        <li>
-          <strong>08/2022</strong>
-          <br/>
-          - 🎓 Graduated from METALS program at Carnegie Mellon University and moved to Notre Dame to start my Ph.D. study in HCI, Cybersecurity, and Privacy.
-        </li>
-      </ul> */}
-
 
       <div className="flex items-center mt-16 mb-8 space-x-3">
         <span className="mt-3 mb-2 uppercase tracking-[.2em] text-accent text-teal-600">
