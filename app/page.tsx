@@ -5,12 +5,13 @@ import { Blog24, Project24 } from '../components/icons'
 import profile_photo from '../public/images/profile_photo.png'
 import { GitHub24, MailAt24, Twitter24, GoogleScholar24 } from '../components/icons'
 import PublicationList from '../components/publicationList';
+import NewsSection from 'components/NewsSection'
 
 const publicationsData = [
   {
     title: 'CLEAR: Towards Contextual LLM-Empowered Privacy Policy Analysis and Risk Generation for Large Language Model Applications',
     authors: ['Chaoran Chen', 'Daodao Zhou', 'Yanfang Ye', 'Toby Jia-jun Li', 'Yaxing Yao'],
-    venue: 'Arxiv preprint',
+    venue: 'Proceedings of the 30th ACM Conference on Intelligent User Interfaces (IUI 2025)',
     image: 'clear.png',
     paperLink: 'https://arxiv.org/pdf/2410.13387',
   },
@@ -175,7 +176,9 @@ export default async function Page() {
         </span>
       </div>
 
-      <ul className='flex-col space-y-4'>
+      <NewsSection />
+
+      {/* <ul className='flex-col space-y-4'>
         <li>
           <strong>10/2024</strong>
           <br/>
@@ -218,7 +221,7 @@ export default async function Page() {
           <br/>
           - 🎓 Graduated from METALS program at Carnegie Mellon University and moved to Notre Dame to start my Ph.D. study in HCI, Cybersecurity, and Privacy.
         </li>
-      </ul>
+      </ul> */}
 
 
       <div className="flex items-center mt-16 mb-8 space-x-3">

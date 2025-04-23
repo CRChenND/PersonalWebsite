@@ -8,7 +8,7 @@ const publicationsData = [
   {
     title: 'CLEAR: Towards Contextual LLM-Empowered Privacy Policy Analysis and Risk Generation for Large Language Model Applications',
     authors: ['Chaoran Chen', 'Daodao Zhou', 'Yanfang Ye', 'Toby Jia-jun Li', 'Yaxing Yao'],
-    venue: 'Arxiv preprint',
+    venue: 'Proceedings of the 30th ACM Conference on Intelligent User Interfaces (IUI 2025)',
     image: 'clear.png',
     paperLink: 'https://arxiv.org/pdf/2410.13387',
   },
