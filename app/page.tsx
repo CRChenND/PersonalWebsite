@@ -153,7 +153,7 @@ export default async function Page() {
             <br/>
             <h4 className="font-medium text-fore-subtle">
               I’m a third-year PhD student in the Department of <a href='https://cse.nd.edu/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Computer Science and Engineering</a> at the <a href="https://www.nd.edu/" className="font-medium text-teal-600 dark:text-teal-600 hover:underline">University of Notre Dame</a>. 
-              I am co-advised by <a href='https://toby.li/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Dr. Toby Jia-Jun Li</a> and <a href='https://yes-lab.org/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Dr. Fanny Yanfang Ye</a>. 
+              I am co-advised by <a href='https://toby.li/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Dr. Toby Jia-Jun Li</a> and <a href='http://yes-lab.org/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Dr. Fanny Yanfang Ye</a>. 
               Before joining ND, I received my M.S. degrees in Educational Technology and 
               Applied Learning Science from Carnegie Mellon University. 
               I received my Bachelor's degree in Industrial Design from Tongji University.
