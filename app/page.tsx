@@ -37,18 +37,18 @@ const publicationsData = [
     paperLink: 'https://arxiv.org/pdf/2410.07588',
   },
   {
-    title: 'Symbolic Prompt Tuning Completes the App Promotion Graph',
-    authors: ['Zhongyu Ouyang', 'Chunhui Zhang', 'Shifu Hou', 'Shang Ma', 'Chaoran Chen', 'Chunhui Zhang', 'Toby Li', 'Xusheng Xiao', 'Chuxu Zhang', 'Yanfang Ye'],
-    venue: 'Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2024)',
-    image: 'pkdd.png',
-    paperLink: 'https://zyouyang.github.io/assets/publications/PromptPromotion.pdf',
-  },
-  {
     title: 'An Empathy-Based Sandbox Approach to Bridge Attitudes, Goals, Knowledge, and Behaviors in the Privacy Paradox',
     authors: ['Chaoran Chen', 'Weijun Li', 'Wenxin Song', 'Yaxing Yao', 'Yanfang Ye', 'Toby Jia-jun Li'],
     venue: 'In the Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (CHI 2024)',
     image: 'empathy_privacy.png',
     paperLink: 'https://dl.acm.org/doi/pdf/10.1145/3613904.3642363',
+  },
+  {
+    title: 'Symbolic Prompt Tuning Completes the App Promotion Graph',
+    authors: ['Zhongyu Ouyang', 'Chunhui Zhang', 'Shifu Hou', 'Shang Ma', 'Chaoran Chen', 'Chunhui Zhang', 'Toby Li', 'Xusheng Xiao', 'Chuxu Zhang', 'Yanfang Ye'],
+    venue: 'Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2024)',
+    image: 'pkdd.png',
+    paperLink: 'https://zyouyang.github.io/assets/publications/PromptPromotion.pdf',
   },
   {
     title: 'ARDW: An Augmented Reality Workbench for Printed Circuit Board Debugging',

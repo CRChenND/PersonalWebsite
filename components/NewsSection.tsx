@@ -4,11 +4,11 @@ import React, { useState } from 'react'
 const newsItems = [
   {
     date: '08/2025',
-    content: <>- ✈️ Attending UIST 2025 in Busan, Korea, and will present our paper "Why am I seeing this: Democratizing End User Auditing for Online Content Recommendations"</>
+    content: <>- ✈️ Attending UIST 2025 in Busan, Korea, and will present our paper "Why am I seeing this: Democratizing End User Auditing for Online Content Recommendations."</>
   },
   {
     date: '08/2025',
-    content: <>- ✈️ Attending SOUPS 2025 in Seattle and will present our poster "The Obvious Invisible Threat: LLM-Powered GUI Agents' Vulnerability to Fine-Print Injections"</>
+    content: <>- ✈️ Attending SOUPS 2025 in Seattle and will present our poster "The Obvious Invisible Threat: LLM-Powered GUI Agents' Vulnerability to Fine-Print Injections."</>
   },
   {
     date: '07/2025',
@@ -16,7 +16,7 @@ const newsItems = [
   },
   {
     date: '04/2025',
-    content: <>- ✈️ Attending CHI 2025 in Yokohama and will present our position paper at HEAL workshop</>
+    content: <>- ✈️ Attending CHI 2025 in Yokohama and will present our position paper at HEAL workshop.</>
   },
   {
     date: '03/2025',
@@ -48,7 +48,7 @@ const newsItems = [
   },
   {
     date: '10/2022',
-    content: <>- 🏅 Attended MobileHCI 2022 in Vancouver as a SV and presented our project <a className='text-teal-600' href='https://youtu.be/IR4Ylpa14VQ'>Taptag</a></>
+    content: <>- 🏅 Attended MobileHCI 2022 in Vancouver as a SV and presented our project <a className='text-teal-600' href='https://youtu.be/IR4Ylpa14VQ'>Taptag</a>.</>
   },
   {
     date: '08/2022',
