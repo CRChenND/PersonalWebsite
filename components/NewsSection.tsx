@@ -3,12 +3,24 @@ import React, { useState } from 'react'
 
 const newsItems = [
   {
+    date: '08/2025',
+    content: <>- ✈️ Attending UIST 2025 in Busan, Korea, and will present our paper "Why am I seeing this: Democratizing End User Auditing for Online Content Recommendations"</>
+  },
+  {
+    date: '08/2025',
+    content: <>- ✈️ Attending SOUPS 2025 in Seattle and will present our poster "The Obvious Invisible Threat: LLM-Powered GUI Agents' Vulnerability to Fine-Print Injections"</>
+  },
+  {
+    date: '07/2025',
+    content: <>- 📃 Our paper “Towards a Design Guideline for RPA Evaluation: A Survey of Large Language Model-Based Role-Playing Agents” has been accepted in ACL 2025 Findings.</>
+  },
+  {
     date: '04/2025',
-    content: <>- 📃 Attending CHI 2025 in Yokohama and will present our position paper at HEAL workshop</>
+    content: <>- ✈️ Attending CHI 2025 in Yokohama and will present our position paper at HEAL workshop</>
   },
   {
     date: '03/2025',
-    content: <>- 📃 Our paper “CLEAR: Towards Contextual LLM-Empowered Privacy Policy Analysis...” has been accepted in IUI 2025.</>
+    content: <>- 📃 Our paper “CLEAR: Towards Contextual LLM-Empowered Privacy Policy Analysis and Risk Generation for Large Language Model Applications” has been accepted in IUI 2025.</>
   },
   {
     date: '10/2024',
@@ -16,11 +28,11 @@ const newsItems = [
   },
   {
     date: '08/2024',
-    content: <>- 📃 Our paper “Careful About What App Promotion Ads Recommend! ...” has been accepted in NDSS 2025.</>
+    content: <>- 📃 Our paper “Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph” has been accepted in NDSS 2025.</>
   },
   {
     date: '05/2024',
-    content: <>- 📃 Attended CHI 2024 in Hawaii and presented our paper...</>
+    content: <>- ✈️ Attended CHI 2024 in Hawaii and presented our paper "An Empathy-Based Sandbox Approach to Bridge Attitudes, Goals, Knowledge, and Behaviors in the Privacy Paradox".</>
   },
   {
     date: '04/2024',
@@ -28,19 +40,19 @@ const newsItems = [
   },
   {
     date: '05/2023',
-    content: <>- 🏫 Participated in the Post-CHI Summer School on Usable Privacy...</>
+    content: <>- ✈️ Participated in the Post-CHI Summer School on Usable Privacy.</>
   },
   {
     date: '04/2023',
-    content: <>- 📃 Attended CHI 2023 in Hamburg and presented our work...</>
+    content: <>- ✈️ Attended CHI 2023 in Hamburg and presented our work at the PIE workshop.</>
   },
   {
     date: '10/2022',
-    content: <>- 🏅 Attended MobileHCI 2022 in Vancouver as a SV and... <a className='text-teal-600' href='https://youtu.be/IR4Ylpa14VQ'>Taptag</a></>
+    content: <>- 🏅 Attended MobileHCI 2022 in Vancouver as a SV and presented our project <a className='text-teal-600' href='https://youtu.be/IR4Ylpa14VQ'>Taptag</a></>
   },
   {
     date: '08/2022',
-    content: <>- 🎓 Graduated from METALS program at Carnegie Mellon University...</>
+    content: <>- 🎓 Graduated from METALS program at Carnegie Mellon University.</>
   },
 ];
 

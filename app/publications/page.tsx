@@ -6,18 +6,25 @@ import PublicationList from '../../components/publicationList';
 
 const publicationsData = [
   {
+    title: 'Why am I seeing this: Democratizing End User Auditing for Online Content Recommendations',
+    authors: ['Chaoran Chen', 'Leyang Li', 'Luke Cao', 'Yanfang Ye', 'Tianshi Li', 'Yaxing Yao', 'Toby Jia-jun Li'],
+    venue: 'In the Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology (UIST 2025)',
+    image: 'adAudit.png',
+    paperLink: 'https://arxiv.org/pdf/2410.04917',
+  },
+  {
+    title: 'Towards a Design Guideline for RPA Evaluation: A Survey of Large Language Model-Based Role-Playing Agents',
+    authors: ['Chaoran Chen', 'Bingsheng Yao', 'Ruishi Zou', 'Wenyue Hua', 'Weimin Lyu', 'Toby Jia-Jun Li', 'Dakuo Wang'],
+    venue: 'Findings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL Findings 2025)',
+    image: 'acl.png',
+    paperLink: 'https://arxiv.org/pdf/2410.04917',
+  },
+  {
     title: 'CLEAR: Towards Contextual LLM-Empowered Privacy Policy Analysis and Risk Generation for Large Language Model Applications',
     authors: ['Chaoran Chen', 'Daodao Zhou', 'Yanfang Ye', 'Toby Jia-jun Li', 'Yaxing Yao'],
     venue: 'Proceedings of the 30th ACM Conference on Intelligent User Interfaces (IUI 2025)',
     image: 'clear.png',
     paperLink: 'https://arxiv.org/pdf/2410.13387',
-  },
-  {
-    title: 'Why am I seeing this: Democratizing End User Auditing for Online Content Recommendations',
-    authors: ['Chaoran Chen', 'Leyang Li', 'Luke Cao', 'Yanfang Ye', 'Tianshi Li', 'Yaxing Yao', 'Toby Jia-jun Li'],
-    venue: 'Arxiv preprint',
-    image: 'adAudit.png',
-    paperLink: 'https://arxiv.org/pdf/2410.04917',
   },
   {
     title: 'Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph',
