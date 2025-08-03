@@ -28,7 +28,7 @@ const publicationsData = [
   },
   {
     title: 'Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph',
-    authors: ['Shang M', 'Chaoran Chen', 'Shao Yang', 'Shifu Hou', 'Toby Jia-Jun Li', 'Xusheng Xiao', 'Tao Xie', 'Yanfang Ye'],
+    authors: ['Shang Ma', 'Chaoran Chen', 'Shao Yang', 'Shifu Hou', 'Toby Jia-Jun Li', 'Xusheng Xiao', 'Tao Xie', 'Yanfang Ye'],
     venue: 'Network and Distributed System Security Symposium ((NDSS 2025)',
     image: 'ndss25.png',
     paperLink: 'https://arxiv.org/pdf/2410.07588',
