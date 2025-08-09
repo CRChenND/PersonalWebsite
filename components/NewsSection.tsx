@@ -12,7 +12,7 @@ const newsItems = [
   },
   {
     date: '08/2025',
-    content: <>- 📃 Two co-authored papers accepted to the HAIPS@CCS<a href='https://haips.com/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline"></a> workshop</>
+    content: <>- 📃 Two co-authored papers accepted to the <a href='https://haips.com/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline">HAIPS@CCS</a> workshop</>
   },
   {
     date: '07/2025',
