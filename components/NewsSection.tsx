@@ -3,12 +3,21 @@ import React, { useState } from 'react'
 
 const newsItems = [
   {
-    date: '08/2025',
+    date: '09/2025',
     content: <>- ✈️ Attending UIST 2025 in Busan, Korea, and will present our paper "Why am I seeing this: Democratizing End User Auditing for Online Content Recommendations."</>
   },
   {
     date: '08/2025',
     content: <>- ✈️ Attending SOUPS 2025 in Seattle and will present our poster "The Obvious Invisible Threat: LLM-Powered GUI Agents' Vulnerability to Fine-Print Injections."</>
+  },
+  ,
+  {
+    date: '08/2025',
+    content: <>- 📃 Two co-authored papers accepted to the HAIPS@CCS<a href='https://haips.com/' className="font-medium text-teal-600 dark:text-teal-600 hover:underline"></a> workshop</>
+  },
+  {
+    date: '07/2025',
+    content: <>- 💻 Started my research internship at Google as a Student Researcher.</>
   },
   {
     date: '07/2025',
