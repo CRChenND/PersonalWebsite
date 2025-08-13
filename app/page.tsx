@@ -165,7 +165,7 @@ export default async function Page() {
               Applied Learning Science from Carnegie Mellon University. I received my Bachelor's degree in Industrial Design from Tongji University.
               <br/><br/>
               My research lies at the intersection of <strong>Human-Computer Interaction, Usable Privacy and Security, and Large Language Models (LLMs)</strong>. 
-              I use human-centered design methods to investigate the dual relationship between LLMs and privacy: 
+              I use human-centered design methods to investigate the dual relationship between LLMs and privacy/security: 
               the Privacy and Security of LLMs (i.e., risks and vulnerabilities introduced by the use of LLMs) and 
               LLMs for Privacy and Security (i.e., how LLMs can be used as tools to improve user privacy and security). 
               My work argues that novel interface and interaction designs are essential to bridge these two perspectives and 
