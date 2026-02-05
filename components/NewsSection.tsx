@@ -3,6 +3,10 @@ import React, { useState } from 'react'
 
 const newsItems = [
   {
+  date: '02/2026',
+  content: <>- 📃 Excited to share that one paper has been accepted to IUI 2026 and three papers have been accepted to CHI 2026. Many thanks to my amazing collaborators!</>
+  },
+  {
     date: '09/2025',
     content: <>- ✈️ Attending UIST 2025 in Busan, Korea, and will present our paper "Why am I seeing this: Democratizing End User Auditing for Online Content Recommendations."</>
   },
