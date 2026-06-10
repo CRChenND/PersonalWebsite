@@ -21,7 +21,7 @@ const publicationsData = [
   },
   {
     title: 'My Favorite Streamer is an LLM: Discovering, Bonding, and Co-Creating in AI VTuber Fandom',
-    authors: ['Jiayi Ye', 'Chaoran Chen', 'Yue Huang', 'Yanfang Ye', 'Yaxing Yao', 'Toby Jia-Jun Li'],
+    authors: ['Jiayi Ye', 'Chaoran Chen', 'Yue Huang', 'Yanfang Ye', 'Toby Jia-Jun Li', 'Xiangliang Zhang'],
     venue: 'In the Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026)',
     image: 'aivtuber.png',
     paperLink: 'https://arxiv.org/abs/2509.10427',
