@@ -14,10 +14,6 @@ const routes = [
     exact: true,
   },
   {
-    path: '/publications',
-    label: 'Publications',
-  },
-  {
     path: '/cv',
     label: 'CV',
   },
@@ -26,7 +22,7 @@ const routes = [
 export function Header() {
   const path = usePathname()
   return (
-    <header className="container h-32 max-w-screen-lg px-5 m-auto overflow-hidden sm:px-12 md:px-20">
+    <header className="container h-24 max-w-screen-xl px-4 m-auto overflow-hidden sm:px-6 md:px-8">
       <nav
         className="flex items-center justify-start h-full mt-auto space-x-6 text-sm md:justify-start"
         aria-label="Main Navigation"

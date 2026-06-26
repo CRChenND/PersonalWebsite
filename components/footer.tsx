@@ -8,10 +8,6 @@ const routes = [
     exact: true,
   },
   {
-    path: '/publications',
-    label: 'Publications',
-  },
-  {
     path: '/cv',
     label: 'CV',
   },

@@ -1,3 +1,3 @@
-# Chaoran Chen' personal website
+# Chaoran Chen's Personal Website
 
-This website is built on the template of jeffjadulco.com.
+Built with Next.js and Tailwind CSS.

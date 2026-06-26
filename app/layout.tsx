@@ -4,7 +4,6 @@ import { Analytics } from '../components/analytics'
 import { Footer } from '../components/footer'
 import { Header } from '../components/header'
 import { MobileNav } from '../components/mobileNav'
-import './styles/codeblock.css'
 import './styles/globals.css'
 
 const FontInter = Inter({
@@ -18,14 +17,15 @@ const FontFiraCode = Fira_Code({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://chaoranchen.com'),
   title: {
-    default: 'Chaoran Chen | HCI, Security, and privacy researcher',
+    default: 'Chaoran Chen | HCI, Security, and Privacy Researcher',
     template: '%s | Chaoran Chen',
   },
-  description: 'HCI, Security, and privacy researcher',
+  description: 'HCI, usable privacy and security, and Human-AI interaction researcher',
   openGraph: {
     title: 'Chaoran Chen',
-    description: 'HCI, Security, and privacy researcher',
+    description: 'HCI, usable privacy and security, and Human-AI interaction researcher',
     url: 'https://chaoranchen.com',
     siteName: 'Chaoran Chen',
     images: [],
@@ -61,7 +61,7 @@ export default function RootLayout({
       >
         <MobileNav />
         <Header />
-        <main className="container flex-grow max-w-screen-lg px-5 m-auto mt-16 sm:px-12 md:px-20">
+        <main className="container flex-grow max-w-screen-xl px-4 m-auto mt-10 sm:px-6 md:px-8">
           {children}
         </main>
         <Footer />
