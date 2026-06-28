@@ -100,7 +100,7 @@ const journalAndConferencePapers: CVPublication[] = [
       'The Obvious Invisible Threat: LLM-Powered GUI Agents’ Vulnerability to Fine-Print Injections',
     authors:
       'Chaoran Chen, Zhiping Zhang, Bingcan Guo, Shang Ma, Ibrahim Khalilov, Simret Gebreegziabher, Yanfang Ye, Ziang Xiao, Yaxing Yao, Tianshi Li, and Toby Jia-Jun Li',
-    link: 'https://dl.acm.org/doi/abs/10.1145/3807953',
+    link: 'https://dl.acm.org/doi/10.1145/3807953',
   },
   {
     id: 'C.13',
@@ -242,16 +242,17 @@ const journalAndConferencePapers: CVPublication[] = [
 
 const workshopAndDemoPapers: CVPublication[] = [
   {
-    id: 'W.7',
+    id: 'W.5',
     year: '2026',
     venue:
       'Proceedings of the 48th International Conference on Software Engineering (ICSE 2026), Demonstrations Track',
     title: 'PriviSense: A Frida-Based Framework for Multi-Sensor Spoofing on Android',
     authors:
       'Ibrahim Khalilov, Chaoran Chen, Ziang Xiao, Tianshi Li, Toby Jia-Jun Li, and Yaxing Yao',
+    link: 'https://conf.researchr.org/details/icse-2026/icse-2026-demonstrations/4/PriviSense-A-Frida-Based-Framework-for-Multi-Sensor-Spoofing-on-Android',
   },
   {
-    id: 'W.6',
+    id: 'W.4',
     year: '2026',
     venue:
       'Proceedings of the Extended Abstracts of the Conference on Human Factors in Computing Systems (CHI 2026)',
@@ -259,39 +260,24 @@ const workshopAndDemoPapers: CVPublication[] = [
       'From Human-Human Collaboration to Human-Agent Collaboration: A Vision, Design Philosophy, and an Empirical Framework for Achieving Successful Partnerships Between Humans and LLM Agents',
     authors:
       'Bingsheng Yao, Chaoran Chen, April Yi Wang, Tongshuang Wu, Toby Jia-Jun Li, and Dakuo Wang',
+    link: 'https://dl.acm.org/doi/10.1145/3772363.3778744',
   },
   {
-    id: 'W.5',
+    id: 'W.3',
     year: '2025',
     venue: 'CCS 2025 Workshop on Human-Centered AI Privacy and Security',
     title: 'Iterative Contextual Consent: AI-enabled Data Privacy Contracts',
     authors: 'Daniel D Slate, Chaoran Chen, Yaxing Yao, and Toby Jia-Jun Li',
+    link: 'https://dl.acm.org/doi/10.1145/3733816.3760757',
   },
   {
-    id: 'W.4',
+    id: 'W.2',
     year: '2025',
     venue: 'CCS 2025 Workshop on Human-Centered AI Privacy and Security',
     title: 'Beyond Permissions: Investigating Mobile Personalization with Simulated Personas',
     authors:
       'Ibrahim Khalilov, Chaoran Chen, Ziang Xiao, Tianshi Li, Toby Jia-Jun Li, Yaxing Yao',
-  },
-  {
-    id: 'W.3',
-    year: '2025',
-    venue:
-      'CHI 2025 Workshop on Human-Centered Evaluation and Auditing of Language Models (HEAL)',
-    title:
-      'Toward a Human-centered Evaluation Framework for Trustworthy LLM-powered GUI Agents',
-    authors:
-      'Chaoran Chen, Zhiping Zhang, Ibrahim Khalilov, Bingcan Guo, Simret A. Gebreegziabher, Yanfang Ye, Ziang Xiao, Yaxing Yao, Tianshi Li, and Toby Jia-Jun Li',
-  },
-  {
-    id: 'W.2',
-    year: '2024',
-    venue:
-      'CHI 2024 Workshop on Human-Centered Evaluation and Auditing of Language Models (HEAL)',
-    title: 'Evaluating the LLM Agents for Simulating Humanoid Behavior',
-    authors: 'Chaoran Chen, Bingsheng Yao, Yanfang Ye, Dakuo Wang, and Toby Jia-Jun Li',
+    link: 'https://dl.acm.org/doi/10.1145/3733816.3760758',
   },
   {
     id: 'W.1',
@@ -300,6 +286,7 @@ const workshopAndDemoPapers: CVPublication[] = [
     title: 'Prompt Learning Unlocked for App Promotion in the Wild',
     authors:
       'Zhongyu Ouyang, Shifu Hou, Shang Ma, Chaoran Chen, Chunhui Zhang, Toby Jia-Jun Li, Xusheng Xiao, Chuxu Zhang, and Yanfang Ye',
+    link: 'https://neurips.cc/virtual/2023/82385',
   },
 ]
 
