@@ -84,8 +84,8 @@ const publicationsData = [
       'Chaoran Chen',
       'Yue Huang',
       'Yanfang Ye',
-      'Yaxing Yao',
       'Toby Jia-Jun Li',
+      'Xiangliang Zhang',
     ],
     venue:
       'In the Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026)',

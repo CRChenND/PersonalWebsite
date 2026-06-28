@@ -132,7 +132,7 @@ const journalAndConferencePapers: CVPublication[] = [
     title:
       'My Favorite Streamer is an LLM: Discovering, Bonding, and Co-Creating in AI VTuber Fandom',
     authors:
-      'Jiayi Ye, Chaoran Chen, Yue Huang, Yanfang Ye, Yaxing Yao, and Toby Jia-Jun Li',
+      'Jiayi Ye, Chaoran Chen, Yue Huang, Yanfang Ye, Toby Jia-Jun Li, and Xiangliang Zhang',
     link: 'https://dl.acm.org/doi/10.1145/3772318.3790891',
   },
   {
