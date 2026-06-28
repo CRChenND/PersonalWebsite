@@ -82,130 +82,224 @@ const experience = [
   },
 ]
 
-const publications = [
+type CVPublication = {
+  id: string
+  year: string
+  venue: string
+  title: string
+  authors: string
+  link?: string
+}
+
+const journalAndConferencePapers: CVPublication[] = [
   {
+    id: 'C.14',
     year: '2026',
-    venue: 'ACM TAISAP',
+    venue: 'ACM Transactions on AI Security and Privacy',
     title:
       'The Obvious Invisible Threat: LLM-Powered GUI Agents’ Vulnerability to Fine-Print Injections',
     authors:
-      'Chaoran Chen, Zhiping Zhang, Bingcan Guo, Shang Ma, Ibrahim Khalilov, Simret Gebreegziabher, Yanfang Ye, Ziang Xiao, Yaxing Yao, Tianshi Li, Toby Jia-Jun Li',
+      'Chaoran Chen, Zhiping Zhang, Bingcan Guo, Shang Ma, Ibrahim Khalilov, Simret Gebreegziabher, Yanfang Ye, Ziang Xiao, Yaxing Yao, Tianshi Li, and Toby Jia-Jun Li',
     link: 'https://dl.acm.org/doi/abs/10.1145/3807953',
   },
   {
+    id: 'C.13',
     year: '2026',
-    venue: 'CHI',
+    venue:
+      'Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2026)',
     title:
       'Dark Patterns Meet GUI Agents: LLM Agent Susceptibility to Manipulative Interfaces and the Role of Human Oversight',
     authors:
-      'Jingyu Tang*, Chaoran Chen*, Jiawen Li, Zhiping Zhang, Bingcan Guo, Ibrahim Khalilov, Simret Araya Gebreegziabher, Bingsheng Yao, Dakuo Wang, Yanfang Ye, Tianshi Li, Ziang Xiao, Yaxing Yao, Toby Jia-Jun Li',
+      'Jingyu Tang*, Chaoran Chen*, Jiawen Li, Zhiping Zhang, Bingcan Guo, Ibrahim Khalilov, Simret Araya Gebreegziabher, Bingsheng Yao, Dakuo Wang, Yanfang Ye, Tianshi Li, Ziang Xiao, Yaxing Yao, and Toby Jia-Jun Li',
     link: 'https://dl.acm.org/doi/10.1145/3772318.3791568',
   },
   {
+    id: 'C.12',
     year: '2026',
-    venue: 'CHI',
+    venue:
+      'Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2026)',
     title:
       'Through the Lens of Human-Human Collaboration: A Configurable Research Platform for Exploring Human-Agent Collaboration',
     authors:
-      'Bingsheng Yao, Jiaju Chen, Chaoran Chen, April Wang, Toby Jia-jun Li, Dakuo Wang',
+      'Bingsheng Yao, Jiaju Chen, Chaoran Chen, April Wang, Toby Jia-jun Li, and Dakuo Wang',
     link: 'https://dl.acm.org/doi/10.1145/3772318.3790879',
   },
   {
+    id: 'C.11',
     year: '2026',
-    venue: 'CHI 2026 HM',
+    venue:
+      '🏆 Best Paper Honorable Mention Award, Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2026)',
     title:
       'My Favorite Streamer is an LLM: Discovering, Bonding, and Co-Creating in AI VTuber Fandom',
     authors:
-      'Jiayi Ye, Chaoran Chen, Yue Huang, Yanfang Ye, Yaxing Yao, Toby Jia-Jun Li',
+      'Jiayi Ye, Chaoran Chen, Yue Huang, Yanfang Ye, Yaxing Yao, and Toby Jia-Jun Li',
     link: 'https://dl.acm.org/doi/10.1145/3772318.3790891',
   },
   {
+    id: 'C.10',
     year: '2026',
-    venue: 'IUI',
+    venue:
+      'Proceedings of the 31th ACM Conference on Intelligent User Interfaces (IUI 2026)',
     title:
       'The Behavioral Fabric of LLM-Powered GUI Agents: Human Values and Interaction Outcomes',
     authors:
-      'Simret Araya Gebreegziabher, Yukun Yang, Charles Chiang, Hojun Yoo, Chaoran Chen, Hyo Jin Do, Zahra Ashktorab, Werner Geyer, Diego Gómez-Zará, Toby Jia-Jun Li',
+      'Simret Araya Gebreegziabher, Yukun Yang, Charles Chiang, Hojun Yoo, Chaoran Chen, Hyo Jin Do, Zahra Ashktorab, Werner Geyer, Diego Gómez-Zará, and Toby Jia-Jun Li',
     link: 'https://dl.acm.org/doi/10.1145/3742413.3789219',
   },
   {
+    id: 'C.9',
     year: '2025',
-    venue: 'UIST',
+    venue:
+      'Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology (UIST 2025)',
     title:
-      'Why am I seeing this: Democratizing End User Auditing for Online Content Recommendations',
+      'Why Am I Seeing This: Democratizing End User Auditing for Online Content Recommendations',
     authors:
-      'Chaoran Chen, Leyang Li, Luke Cao, Yanfang Ye, Tianshi Li, Yaxing Yao, Toby Jia-jun Li',
+      'Chaoran Chen, Leyang Li, Luke Cao, Yanfang Ye, Tianshi Li, Yaxing Yao, and Toby Jia-Jun Li',
     link: 'https://dl.acm.org/doi/10.1145/3746059.3747798',
   },
   {
+    id: 'C.8',
     year: '2025',
-    venue: 'ACL Findings',
+    venue: 'Findings of the Association for Computational Linguistics (ACL 2025 Findings)',
     title:
       'Towards a Design Guideline for RPA Evaluation: A Survey of Large Language Model-Based Role-Playing Agents',
     authors:
-      'Chaoran Chen, Bingsheng Yao, Ruishi Zou, Wenyue Hua, Weimin Lyu, Toby Jia-Jun Li, Dakuo Wang',
+      'Chaoran Chen, Bingsheng Yao, Ruishi Zou, Wenyue Hua, Weimin Lyu, Toby Jia-Jun Li, and Dakuo Wang',
     link: 'https://aclanthology.org/2025.findings-acl.938/',
   },
   {
+    id: 'C.7',
     year: '2025',
-    venue: 'IUI',
+    venue:
+      'Proceedings of the 30th ACM Conference on Intelligent User Interfaces (IUI 2025)',
     title:
       'CLEAR: Towards Contextual LLM-Empowered Privacy Policy Analysis and Risk Generation for Large Language Model Applications',
     authors:
-      'Chaoran Chen, Daodao Zhou, Yanfang Ye, Toby Jia-jun Li, Yaxing Yao',
+      'Chaoran Chen, Daodao Zhou, Yanfang Ye, Toby Jia-jun Li, and Yaxing Yao',
     link: 'https://dl.acm.org/doi/10.1145/3708359.3712156',
   },
   {
+    id: 'C.6',
     year: '2025',
-    venue: 'NDSS',
+    venue: 'The Network and Distributed System Security Symposium (NDSS 2025)',
     title:
       'Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph',
     authors:
-      'Shang Ma*, Chaoran Chen*, Shao Yang, Shifu Hou, Toby Jia-Jun Li, Xusheng Xiao, Tao Xie, Yanfang Ye',
+      'Shang Ma*, Chaoran Chen*, Shao Yang, Shifu Hou, Toby Jia-Jun Li, Xusheng Xiao, Tao Xie, and Yanfang Ye',
     link: 'https://www.ndss-symposium.org/ndss-paper/careful-about-what-app-promotion-ads-recommend-detecting-and-explaining-malware-promotion-via-app-promotion-graph/',
   },
   {
+    id: 'C.5',
     year: '2024',
-    venue: 'CHI',
-    title:
-      'An Empathy-Based Sandbox Approach to Bridge the Privacy Gap among Attitudes, Goals, Knowledge, and Behaviors',
-    authors:
-      'Chaoran Chen, Weijun Li, Wenxin Song, Yaxing Yao, Yanfang Ye, Toby Jia-jun Li',
-    link: 'https://dl.acm.org/doi/10.1145/3613904.3642363',
-  },
-  {
-    year: '2024',
-    venue: 'ECML PKDD',
+    venue: 'Machine Learning and Knowledge Discovery in Databases (ECML PKDD 2024)',
     title: 'Symbolic Prompt Tuning Completes the App Promotion Graph',
     authors:
-      'Zhongyu Ouyang, Chunhui Zhang, Shifu Hou, Shang Ma, Chaoran Chen, Toby Li, Xusheng Xiao, Chuxu Zhang, Yanfang Ye',
+      'Zhongyu Ouyang, Chunhui Zhang, Shifu Hou, Shang Ma, Chaoran Chen, Toby Li, Xusheng Xiao, Chuxu Zhang, and Yanfang Ye',
     link: 'https://dl.acm.org/doi/10.1007/978-3-031-70381-2_12',
   },
   {
-    year: '2022',
-    venue: 'UIST',
+    id: 'C.4',
+    year: '2024',
+    venue:
+      'Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2024)',
     title:
-      'ARDW: An Augmented Reality Workbench for Printed Circuit Board Debugging',
+      'An Empathy-Based Sandbox Approach to Bridge the Privacy Gap among Attitudes, Goals, Knowledge, and Behaviors',
     authors:
-      'Ishan Chatterjee, Tadeusz Pforte, Aspen Tng, Farshid Salemi Parizi, Chaoran Chen, Shwetak Patel',
+      'Chaoran Chen, Weijun Li, Wenxin Song, Yanfang Ye, Yaxing Yao, and Toby Jia-Jun Li',
+    link: 'https://dl.acm.org/doi/10.1145/3613904.3642363',
+  },
+  {
+    id: 'C.3',
+    year: '2022',
+    venue:
+      'Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST 2022)',
+    title: 'ARDW: An augmented reality workbench for printed circuit board debugging',
+    authors:
+      'Ishan Chatterjee, Tadeusz Pforte, Aspen Tng, Farshid Salemi Parizi, Chaoran Chen and Shwetak Patel',
     link: 'https://dl.acm.org/doi/10.1145/3526113.3545684',
   },
   {
+    id: 'C.2',
     year: '2021',
-    venue: 'CHI',
+    venue:
+      'Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2021)',
     title:
-      'Patterns for representing knowledge graphs to communicate situational knowledge of service robots',
+      'Patterns for Representing Knowledge Graphs to Communicate Situational Knowledge of Service Robots',
     authors:
-      'Shengchen Zhang, Zixuan Wang, Chaoran Chen, Yi Dai, Lyumanshan Ye, Xiaohua Sun',
+      'Shengchen Zhang, Zixuan Wang, Chaoran Chen, Yi Dai, Lyumanshan Ye and Xiaohua Sun',
     link: 'https://dl.acm.org/doi/10.1145/3411764.3445767',
   },
   {
+    id: 'C.1',
     year: '2019',
-    venue: 'AAAI',
+    venue: 'Proceedings of the AAAI Conference on Artificial Intelligence (AAAI 2019)',
     title:
       'AI-Sketcher: A Deep Generative Model for Producing High-Quality Sketches',
-    authors: 'Nan Cao, Xin Yan, Yang Shi, Chaoran Chen',
+    authors: 'Nan Cao, Xin Yan, Yang Shi, and Chaoran Chen',
     link: 'https://ojs.aaai.org/index.php/AAAI/article/view/4103',
+  },
+]
+
+const workshopAndDemoPapers: CVPublication[] = [
+  {
+    id: 'W.7',
+    year: '2026',
+    venue:
+      'Proceedings of the 48th International Conference on Software Engineering (ICSE 2026), Demonstrations Track',
+    title: 'PriviSense: A Frida-Based Framework for Multi-Sensor Spoofing on Android',
+    authors:
+      'Ibrahim Khalilov, Chaoran Chen, Ziang Xiao, Tianshi Li, Toby Jia-Jun Li, and Yaxing Yao',
+  },
+  {
+    id: 'W.6',
+    year: '2026',
+    venue:
+      'Proceedings of the Extended Abstracts of the Conference on Human Factors in Computing Systems (CHI 2026)',
+    title:
+      'From Human-Human Collaboration to Human-Agent Collaboration: A Vision, Design Philosophy, and an Empirical Framework for Achieving Successful Partnerships Between Humans and LLM Agents',
+    authors:
+      'Bingsheng Yao, Chaoran Chen, April Yi Wang, Tongshuang Wu, Toby Jia-Jun Li, and Dakuo Wang',
+  },
+  {
+    id: 'W.5',
+    year: '2025',
+    venue: 'CCS 2025 Workshop on Human-Centered AI Privacy and Security',
+    title: 'Iterative Contextual Consent: AI-enabled Data Privacy Contracts',
+    authors: 'Daniel D Slate, Chaoran Chen, Yaxing Yao, and Toby Jia-Jun Li',
+  },
+  {
+    id: 'W.4',
+    year: '2025',
+    venue: 'CCS 2025 Workshop on Human-Centered AI Privacy and Security',
+    title: 'Beyond Permissions: Investigating Mobile Personalization with Simulated Personas',
+    authors:
+      'Ibrahim Khalilov, Chaoran Chen, Ziang Xiao, Tianshi Li, Toby Jia-Jun Li, Yaxing Yao',
+  },
+  {
+    id: 'W.3',
+    year: '2025',
+    venue:
+      'CHI 2025 Workshop on Human-Centered Evaluation and Auditing of Language Models (HEAL)',
+    title:
+      'Toward a Human-centered Evaluation Framework for Trustworthy LLM-powered GUI Agents',
+    authors:
+      'Chaoran Chen, Zhiping Zhang, Ibrahim Khalilov, Bingcan Guo, Simret A. Gebreegziabher, Yanfang Ye, Ziang Xiao, Yaxing Yao, Tianshi Li, and Toby Jia-Jun Li',
+  },
+  {
+    id: 'W.2',
+    year: '2024',
+    venue:
+      'CHI 2024 Workshop on Human-Centered Evaluation and Auditing of Language Models (HEAL)',
+    title: 'Evaluating the LLM Agents for Simulating Humanoid Behavior',
+    authors: 'Chaoran Chen, Bingsheng Yao, Yanfang Ye, Dakuo Wang, and Toby Jia-Jun Li',
+  },
+  {
+    id: 'W.1',
+    year: '2023',
+    venue: 'NeurIPS 2023 Workshop on New Frontiers in Graph Learning (GLFrontiers)',
+    title: 'Prompt Learning Unlocked for App Promotion in the Wild',
+    authors:
+      'Zhongyu Ouyang, Shifu Hou, Shang Ma, Chaoran Chen, Chunhui Zhang, Toby Jia-Jun Li, Xusheng Xiao, Chuxu Zhang, and Yanfang Ye',
   },
 ]
 
@@ -340,8 +434,8 @@ export default async function CV() {
             {[
               ['education', 'Education'],
               ['experience', 'Experience'],
-              ['teaching', 'Teaching'],
               ['publications', 'Publications'],
+              ['teaching', 'Teaching'],
             ].map(([href, label]) => (
               <a
                 key={href}
@@ -382,49 +476,107 @@ export default async function CV() {
             </div>
           </Section>
 
+          <Section id="publications" title="Publications">
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-sm font-semibold uppercase tracking-wide text-fore-subtle">
+                  Journal and Conference Papers
+                  <span className="ml-2 normal-case tracking-normal">
+                    (* indicate equal contribution)
+                  </span>
+                </h3>
+                <div className="mt-3 space-y-3">
+                  {journalAndConferencePapers.map(publication => (
+                    <article
+                      key={publication.id}
+                      className="grid gap-3 py-2 sm:grid-cols-[88px_1fr]"
+                    >
+                      <div>
+                        <div className="font-mono text-xs text-fore-subtle">
+                          [{publication.id}]
+                        </div>
+                        <div className="mt-1 font-mono text-xs text-fore-subtle">
+                          {publication.year}
+                        </div>
+                      </div>
+                      <div>
+                        <h4 className="text-base font-semibold leading-snug text-fore-primary">
+                          {publication.link ? (
+                            <a
+                              href={publication.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="hover:text-teal-700 hover:underline dark:hover:text-teal-400"
+                            >
+                              {publication.title}
+                            </a>
+                          ) : (
+                            publication.title
+                          )}
+                        </h4>
+                        <p className="mt-2 text-sm leading-6 text-fore-subtle">
+                          {publication.authors}
+                        </p>
+                        <p className="mt-1 text-sm leading-6 text-teal-700 dark:text-teal-400">
+                          {publication.venue}
+                        </p>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-sm font-semibold uppercase tracking-wide text-fore-subtle">
+                  Workshop and Demo Papers
+                </h3>
+                <div className="mt-3 space-y-3">
+                  {workshopAndDemoPapers.map(publication => (
+                    <article
+                      key={publication.id}
+                      className="grid gap-3 py-2 sm:grid-cols-[88px_1fr]"
+                    >
+                      <div>
+                        <div className="font-mono text-xs text-fore-subtle">
+                          [{publication.id}]
+                        </div>
+                        <div className="mt-1 font-mono text-xs text-fore-subtle">
+                          {publication.year}
+                        </div>
+                      </div>
+                      <div>
+                        <h4 className="text-base font-semibold leading-snug text-fore-primary">
+                          {publication.link ? (
+                            <a
+                              href={publication.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="hover:text-teal-700 hover:underline dark:hover:text-teal-400"
+                            >
+                              {publication.title}
+                            </a>
+                          ) : (
+                            publication.title
+                          )}
+                        </h4>
+                        <p className="mt-2 text-sm leading-6 text-fore-subtle">
+                          {publication.authors}
+                        </p>
+                        <p className="mt-1 text-sm leading-6 text-teal-700 dark:text-teal-400">
+                          {publication.venue}
+                        </p>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </Section>
+
           <Section id="teaching" title="Teaching Experience">
             <div>
               {teaching.map(item => (
                 <TimelineItem key={`${item.period}-${item.title}`} {...item} />
-              ))}
-            </div>
-          </Section>
-
-          <Section id="publications" title="Publications">
-            <div className="space-y-3">
-              {publications.map(publication => (
-                <article
-                  key={publication.title}
-                  className="grid gap-3 py-2 sm:grid-cols-[72px_1fr]"
-                >
-                  <div>
-                    <div className="font-mono text-xs text-fore-subtle">
-                      {publication.year}
-                    </div>
-                    <div className="mt-1 inline-flex rounded-md border border-back-subtle px-2 py-1 text-xs font-semibold text-teal-700 dark:text-teal-400">
-                      {publication.venue}
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="text-base font-semibold leading-snug text-fore-primary">
-                      {publication.link === '#' ? (
-                        publication.title
-                      ) : (
-                        <a
-                          href={publication.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="hover:text-teal-700 hover:underline dark:hover:text-teal-400"
-                        >
-                          {publication.title}
-                        </a>
-                      )}
-                    </h3>
-                    <p className="mt-2 text-sm leading-6 text-fore-subtle">
-                      {publication.authors}
-                    </p>
-                  </div>
-                </article>
               ))}
             </div>
           </Section>

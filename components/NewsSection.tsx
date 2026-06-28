@@ -7,6 +7,10 @@ const newsItems = [
     content: <>Started as an Applied Scientist Intern at Amazon.</>,
   },
   {
+    date: '05/2026',
+    content: <>Attended the <a href="https://ai-evaluation.org/2026-cohort" className="font-medium text-teal-600 dark:text-teal-600 hover:underline">International Programme on AI Evaluation: Capabilities &amp; Safety</a> in Valencia.</>,
+  },
+  {
     date: '04/2026',
     content: <>Attended CHI 2026 in Barcelona and presented <a href="https://dl.acm.org/doi/10.1145/3772318.3791568" className="font-medium text-teal-600 dark:text-teal-600 hover:underline">Dark Patterns Meet GUI Agents</a>.</>,
   },
