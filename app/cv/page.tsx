@@ -438,12 +438,7 @@ export default async function CV() {
         <main className="space-y-12">
           <section className="py-2">
             <p className="max-w-3xl text-base leading-8 text-fore-subtle">
-              My research lies at the intersection of human-computer
-              interaction, usable privacy and security, and large language
-              models. I study how interface and interaction design can help end
-              users understand AI systems, audit algorithmic recommendations,
-              and navigate privacy and security risks introduced by generative
-              AI.
+              My research lies at the intersection of <b>human-computer interaction, usable privacy and security, and LLM agents</b>. I design systems that restore user agency in AI-mediated privacy and security by helping people recognize risks, understand system behavior, and act on their preferences. Across contextual scaffolding, experiential auditing, and human-centered AI agency, my work develops mechanisms that make AI systems more transparent, contestable, and aligned with human expectations.
             </p>
           </section>
 
