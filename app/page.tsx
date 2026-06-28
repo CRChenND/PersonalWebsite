@@ -387,7 +387,7 @@ export default async function Page() {
                 href="http://yes-lab.org/"
                 className="font-medium text-teal-700 hover:underline dark:text-teal-400"
               >
-                Dr. Fanny Yanfang Ye
+                Dr. Yanfang Ye
               </a>
               . Before Notre Dame, I received an M.S. in Educational Technology
               and Applied Learning Sciences from Carnegie Mellon
