@@ -39,7 +39,7 @@ const education = [
     title: 'Ph.D. in Computer Science and Engineering',
     organization: 'University of Notre Dame',
     detail:
-      'Advised by Dr. Toby Jia-Jun Li and Dr. Fanny Yanfang Ye.',
+      'Advised by Dr. Toby Jia-Jun Li and Dr. Yanfang Ye.',
   },
   {
     period: '2021 - 2022',
@@ -60,7 +60,7 @@ const education = [
 const experience = [
   {
     period: '05/2026 - 07/2026',
-    title: 'Applied Science Intern',
+    title: 'Applied Scientist Intern',
     organization: 'Amazon',
     detail: 'Seattle, WA.',
     host: 'Hosts: Vy Nguyen and Dr. Ziji Zhang',
