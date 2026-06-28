@@ -30,7 +30,7 @@ export function Footer() {
               className="self-center text-xs tracking-wider md:self-end"
               aria-label="Copyright"
             >
-              © 2023. Chaoran Chen. All Rights Reserved.
+              © 2026. Chaoran Chen. All Rights Reserved.
             </span>
             <div className="flex flex-row items-center justify-center space-x-6 md:justify-end">
               <span>
