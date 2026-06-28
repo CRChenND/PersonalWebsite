@@ -227,7 +227,7 @@ const researchOverview = [
     body: 'I build empathy-based and persona-based sandboxes that let people test how personal information changes AI-powered systems, transforming opaque inferences into concrete, inspectable outcomes.',
   },
   {
-    eyebrow: 'Human-centered AI agency',
+    eyebrow: 'Agency feedback loops',
     title: 'Connecting governance, oversight, and model behavior',
     body: 'My future work develops feedback loops across institutional governance, cognitively calibrated oversight interfaces, and model alignment so users can contest and correct unsafe AI behavior.',
   },
@@ -389,12 +389,11 @@ export default async function Page() {
               >
                 Dr. Yanfang Ye
               </a>
-              . Before Notre Dame, I received an M.S. in Educational Technology
-              and Applied Learning Sciences from Carnegie Mellon
-              University and a B.Eng. in Industrial Design from Tongji
-              University. My research restores user agency across the full arc
-              of awareness, knowledge, and behavior in AI privacy and security,
-              aligning system behavior with human expectations and reasoning.
+              . My research lies at the intersection of human-computer interaction, 
+              usable privacy and security, and LLM agents. I design systems that 
+              make AI behavior more transparent, contestable, and aligned with 
+              human expectations, from contextual privacy scaffolds to experiential 
+              auditing tools and oversight mechanisms for AI agents.
             </p>
           </section>
 
