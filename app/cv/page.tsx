@@ -128,7 +128,7 @@ const journalAndConferencePapers: CVPublication[] = [
     id: 'C.11',
     year: '2026',
     venue:
-      '🏆 Best Paper Honorable Mention Award, Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2026)',
+      'Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2026)',
     title:
       'My Favorite Streamer is an LLM: Discovering, Bonding, and Co-Creating in AI VTuber Fandom',
     authors:
