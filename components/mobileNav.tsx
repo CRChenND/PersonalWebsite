@@ -106,7 +106,14 @@ export function MobileNav() {
   )
 }
 
-function MobileNavLink({ to, title, selected, hide }) {
+type MobileNavLinkProps = {
+  to: string
+  title: string
+  selected: boolean
+  hide: () => void
+}
+
+function MobileNavLink({ to, title, selected, hide }: MobileNavLinkProps) {
   return (
     <div className="flex-grow">
       <Link

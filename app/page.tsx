@@ -269,10 +269,10 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
 export default async function Page() {
   return (
     <div className="pointer-events-auto pb-16">
-      <section className="grid gap-8 lg:grid-cols-[260px_1fr] lg:items-start">
+      <section className="grid gap-7 lg:grid-cols-[260px_1fr] lg:items-start">
         <aside className="lg:sticky lg:top-8">
-          <div className="flex gap-5 lg:block">
-            <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-full border border-back-subtle bg-back-secondary lg:h-36 lg:w-36">
+          <div className="flex flex-col gap-4 sm:flex-row sm:gap-5 lg:block">
+            <div className="relative mx-auto h-24 w-24 shrink-0 overflow-hidden rounded-full border border-back-subtle bg-back-secondary sm:mx-0 sm:h-28 sm:w-28 lg:h-36 lg:w-36">
               <Image
                 src={profilePhoto}
                 alt="Chaoran Chen"
@@ -286,7 +286,7 @@ export default async function Page() {
             </div>
 
             <div className="min-w-0 lg:mt-5">
-              <h1 className="text-2xl font-semibold leading-tight tracking-normal">
+              <h1 className="text-[1.65rem] font-semibold leading-tight tracking-normal sm:text-2xl">
                 Chaoran Chen
               </h1>
               <p className="mt-2 text-sm leading-5 text-fore-primary">
@@ -358,12 +358,12 @@ export default async function Page() {
           </div>
         </aside>
 
-        <div className="space-y-9">
+        <div className="min-w-0 space-y-9">
           <section>
             <p className="text-sm font-medium uppercase tracking-[0.18em] text-teal-700 dark:text-teal-400">
               Human-centered AI agency
             </p>
-            <h2 className="mt-3 text-3xl font-semibold leading-tight tracking-normal sm:text-4xl">
+            <h2 className="mt-3 text-2xl font-semibold leading-tight tracking-normal sm:text-4xl">
               I help people see, understand, and correct misalignments in AI
               privacy and security.
             </h2>
@@ -403,12 +403,12 @@ export default async function Page() {
               {researchOverview.map((area, index) => (
                 <article
                   key={area.title}
-                  className="grid gap-3 pb-2 sm:grid-cols-[56px_1fr]"
+                  className="grid grid-cols-[38px_minmax(0,1fr)] gap-3 pb-2 sm:grid-cols-[56px_1fr]"
                 >
                   <div className="font-mono text-sm text-teal-700 dark:text-teal-400">
                     {String(index + 1).padStart(2, '0')}
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <p className="text-xs font-semibold uppercase tracking-[0.16em] text-fore-subtle">
                       {area.eyebrow}
                     </p>

@@ -82,6 +82,8 @@ const experience = [
   },
 ]
 
+const entryGridClass = 'grid gap-3 py-3 sm:grid-cols-[132px_minmax(0,1fr)]'
+
 type CVPublication = {
   id: string
   year: string
@@ -346,9 +348,9 @@ function TimelineItem({
   host?: string
 }) {
   return (
-    <article className="grid gap-2 py-3 sm:grid-cols-[132px_1fr]">
+    <article className={entryGridClass}>
       <div className="font-mono text-xs text-fore-subtle">{period}</div>
-      <div>
+      <div className="min-w-0">
         <h3 className="text-base font-semibold leading-snug text-fore-primary">
           {title}
         </h3>
@@ -369,7 +371,7 @@ function TimelineItem({
 export default async function CV() {
   return (
     <div className="pointer-events-auto pb-16">
-      <div className="grid gap-10 lg:grid-cols-[220px_1fr] lg:items-start">
+      <div className="grid gap-10 lg:grid-cols-[220px_minmax(0,1fr)] lg:items-start">
         <aside className="lg:sticky lg:top-8">
           <p className="text-sm font-medium uppercase tracking-[0.18em] text-teal-700 dark:text-teal-400">
             Curriculum Vitae
@@ -435,9 +437,9 @@ export default async function CV() {
           </nav>
         </aside>
 
-        <main className="space-y-12">
+        <main className="min-w-0 space-y-12">
           <section className="py-2">
-            <p className="max-w-3xl text-base leading-8 text-fore-subtle">
+            <p className="w-full text-base leading-8 text-fore-subtle">
               My research lies at the intersection of <b>human-computer interaction, usable privacy and security, and LLM agents</b>. I design systems that restore user agency in AI-mediated privacy and security by helping people recognize risks, understand system behavior, and act on their preferences. Across contextual scaffolding, experiential auditing, and human-centered AI agency, my work develops mechanisms that make AI systems more transparent, contestable, and aligned with human expectations.
             </p>
           </section>
@@ -471,9 +473,9 @@ export default async function CV() {
                   {journalAndConferencePapers.map(publication => (
                     <article
                       key={publication.id}
-                      className="grid gap-3 py-2 sm:grid-cols-[88px_1fr]"
+                      className={entryGridClass}
                     >
-                      <div>
+                      <div className="min-w-0">
                         <div className="font-mono text-xs text-fore-subtle">
                           [{publication.id}]
                         </div>
@@ -516,9 +518,9 @@ export default async function CV() {
                   {workshopAndDemoPapers.map(publication => (
                     <article
                       key={publication.id}
-                      className="grid gap-3 py-2 sm:grid-cols-[88px_1fr]"
+                      className={entryGridClass}
                     >
-                      <div>
+                      <div className="min-w-0">
                         <div className="font-mono text-xs text-fore-subtle">
                           [{publication.id}]
                         </div>

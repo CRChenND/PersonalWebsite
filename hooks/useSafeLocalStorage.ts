@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export function useSafeLocalStorage(key, initialValue) {
+export function useSafeLocalStorage<T>(key: string, initialValue: T) {
   const [valueProxy, setValueProxy] = useState(() => {
     try {
       const value = window.localStorage.getItem(key)
@@ -10,9 +10,9 @@ export function useSafeLocalStorage(key, initialValue) {
     }
   })
 
-  const setValue = value => {
+  const setValue = (value: T) => {
     try {
-      window.localStorage.setItem(key, value)
+      window.localStorage.setItem(key, JSON.stringify(value))
       setValueProxy(value)
     } catch {
       setValueProxy(value)

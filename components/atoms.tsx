@@ -1,12 +1,25 @@
 import classNames from 'classnames'
 import Link from 'next/link'
+import type { LinkProps } from 'next/link'
 import {
   AnchorHTMLAttributes,
   InputHTMLAttributes,
+  ReactNode,
   TextareaHTMLAttributes,
 } from 'react'
 
-export const NavLink = ({ to, title = 'Link', selected = false, ...props }) => {
+type NavLinkProps = Omit<AnchorHTMLAttributes<HTMLAnchorElement>, 'href'> & {
+  to: LinkProps['href']
+  title?: ReactNode
+  selected?: boolean
+}
+
+export const NavLink = ({
+  to,
+  title = 'Link',
+  selected = false,
+  ...props
+}: NavLinkProps) => {
   return (
     <Link
       {...props}

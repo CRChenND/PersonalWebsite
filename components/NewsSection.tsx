@@ -82,12 +82,12 @@ export default function NewsSection() {
         {displayedNews.map((item, index) => (
           <li
             key={index}
-            className="grid gap-2 rounded-md px-3 py-2 transition-colors hover:bg-back-secondary/60 sm:grid-cols-[76px_1fr]"
+            className="grid grid-cols-[64px_minmax(0,1fr)] gap-2 rounded-md px-2 py-2 transition-colors hover:bg-back-secondary/60 sm:grid-cols-[76px_1fr] sm:px-3"
           >
             <time className="font-mono text-[11px] leading-4 text-teal-700 dark:text-teal-400">
               {item.date}
             </time>
-            <div className="text-xs leading-4 text-fore-subtle">
+            <div className="min-w-0 text-xs leading-4 text-fore-subtle">
               {item.content}
             </div>
           </li>
