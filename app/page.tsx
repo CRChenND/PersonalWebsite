@@ -430,7 +430,7 @@ export default async function Page() {
           </section>
 
           <section id="publications">
-            <SectionLabel>Publications</SectionLabel>
+            <SectionLabel>Selected Publications</SectionLabel>
             <p className="mb-3 text-xs text-fore-subtle">
               * indicates equal contribution.
             </p>
