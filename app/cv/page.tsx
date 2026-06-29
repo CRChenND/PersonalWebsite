@@ -38,8 +38,8 @@ const education = [
     period: '2022 - 2026',
     title: 'Ph.D. in Computer Science and Engineering',
     organization: 'University of Notre Dame, Notre Dame, IN',
-    detail:
-      'Department of Computer Science and Engineering. Advisors: Toby Jia-Jun Li and Yanfang Ye.',
+    detail: 'Department of Computer Science and Engineering.',
+    host: 'Advisors: Toby Jia-Jun Li and Yanfang Ye',
   },
   {
     period: '2021 - 2022',
@@ -98,13 +98,34 @@ const experience = [
 const entryGridClass = 'grid gap-3 py-3 sm:grid-cols-[132px_minmax(0,1fr)]'
 
 const honors = [
-  'International Programme on AI Evaluation: Capabilities & Safety, Inaugural Cohort, 2026',
-  'Advanced Researcher Award, University of Notre Dame, 2026',
-  'Travel Grant, Symposium on Usable Privacy and Security (SOUPS), 2025',
-  'Third prize of Tech Ethics Hackathon ($1,000), Notre Dame-IBM Technology Ethics Lab, 2024',
-  'Gary Marsden Travel Award, ACM SIGCHI, 2022',
-  'Best Implementation Award ($2,000), MobileHCI 2022',
-  'Merit Scholarship ($7,000), Carnegie Mellon University',
+  {
+    title: 'International Programme on AI Evaluation: Capabilities & Safety',
+    detail: 'Inaugural Cohort, 2026',
+  },
+  {
+    title: 'Advanced Researcher Award',
+    detail: 'University of Notre Dame, 2026',
+  },
+  {
+    title: 'Travel Grant',
+    detail: 'Symposium on Usable Privacy and Security (SOUPS), 2025',
+  },
+  {
+    title: 'Third prize of Tech Ethics Hackathon ($1,000)',
+    detail: 'Notre Dame-IBM Technology Ethics Lab, 2024',
+  },
+  {
+    title: 'Gary Marsden Travel Award',
+    detail: 'ACM SIGCHI, 2022',
+  },
+  {
+    title: 'Best Implementation Award ($2,000)',
+    detail: 'MobileHCI 2022',
+  },
+  {
+    title: 'Merit Scholarship ($7,000)',
+    detail: 'Carnegie Mellon University',
+  },
 ]
 
 type CVPublication = {
@@ -189,6 +210,7 @@ const conferencePapers: CVPublication[] = [
       'Programming by Chat: A Large-Scale Behavioral Analysis of 11,579 Real-World AI-Assisted IDE Sessions',
     authors:
       'Ningzhi Tang*, Chaoran Chen*, Zian Fang, Gelei Xu, Maria Dhakal, Yiyu Shi, Collin McMillan, Yu Huang, and Toby Jia-Jun Li',
+    link: 'https://arxiv.org/abs/2604.00436',
   },
   {
     id: 'C.10',
@@ -199,6 +221,7 @@ const conferencePapers: CVPublication[] = [
       "Stayin' Aligned Over Time: Towards Longitudinal Human-LLM Alignment via Contextual Reflection and Privacy-Preserving Behavioral Data",
     authors:
       'Simret Araya Gebreegziabher, Allison E Sproul, Yinuo Yang, Chaoran Chen, Diego Gómez-Zará, and Toby Jia-Jun Li',
+    link: 'https://arxiv.org/abs/2605.04029',
   },
   {
     id: 'C.9',
@@ -422,6 +445,8 @@ const academicService = [
       'IUI 2025-2026',
       'UIST 2026',
       'ICLR Trustworthy AI Workshop 2026',
+    ],
+    featuredItems: [
       'Special recognitions for outstanding reviews at CHI 2024 LBW, CSCW 2025, IUI 2025-2026, CHI 2026, and UIST 2026',
     ],
   },
@@ -484,6 +509,22 @@ function TimelineItem({
   )
 }
 
+function HighlightedAuthors({ authors }: { authors: string }) {
+  return (
+    <>
+      {authors.split(/(Chaoran Chen\*?)/).map((part, index) =>
+        part.startsWith('Chaoran Chen') ? (
+          <strong key={`${part}-${index}`} className="font-semibold text-fore-primary">
+            {part}
+          </strong>
+        ) : (
+          part
+        ),
+      )}
+    </>
+  )
+}
+
 function PublicationItem({ publication }: { publication: CVPublication }) {
   return (
     <article className={entryGridClass}>
@@ -511,14 +552,14 @@ function PublicationItem({ publication }: { publication: CVPublication }) {
           )}
         </h4>
         <p className="mt-2 text-sm leading-6 text-fore-subtle">
-          {publication.authors}
+          <HighlightedAuthors authors={publication.authors} />
         </p>
         <p className="mt-1 text-sm leading-6 text-teal-700 dark:text-teal-400">
           {publication.venue}
         </p>
         {publication.note ? (
-          <p className="mt-1 text-sm font-medium leading-6 text-fore-primary">
-            {publication.note}
+          <p className="mt-2 inline-flex max-w-full items-center rounded-md border border-amber-300/70 bg-amber-50 px-2 py-1 text-sm font-semibold leading-5 text-amber-900 dark:border-amber-400/40 dark:bg-amber-400/10 dark:text-amber-200">
+            🎖️ {publication.note}
           </p>
         ) : null}
       </div>
@@ -648,8 +689,11 @@ export default async function CV() {
           <Section id="honors" title="Selected Fellowships, Programs, Honors, and Awards">
             <ul className="space-y-2 text-sm leading-6 text-fore-subtle">
               {honors.map(item => (
-                <li key={item} className="border-l border-back-subtle pl-4">
-                  {item}
+                <li key={item.title} className="border-l border-back-subtle pl-4">
+                  <strong className="font-semibold text-fore-primary">
+                    {item.title}
+                  </strong>
+                  , {item.detail}
                 </li>
               ))}
             </ul>
@@ -750,6 +794,14 @@ export default async function CV() {
                   <ul className="mt-2 space-y-1 text-sm leading-6 text-fore-subtle">
                     {group.items.map(item => (
                       <li key={item} className="border-l border-back-subtle pl-4">
+                        {item}
+                      </li>
+                    ))}
+                    {group.featuredItems?.map(item => (
+                      <li
+                        key={item}
+                        className="border-l-2 border-amber-400 bg-amber-50 px-3 py-2 font-semibold text-amber-900 dark:bg-amber-400/10 dark:text-amber-200"
+                      >
                         {item}
                       </li>
                     ))}
