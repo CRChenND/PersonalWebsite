@@ -733,7 +733,7 @@ export default async function CV() {
                 <h3 className="text-sm font-semibold uppercase tracking-wide text-fore-subtle">
                   Conference Papers
                   <span className="ml-2 normal-case tracking-normal">
-                    (* indicate equal contribution)
+                    (* indicates equal contribution.)
                   </span>
                 </h3>
                 <div className="mt-3 space-y-3">
