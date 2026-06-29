@@ -325,16 +325,6 @@ const conferencePapers: CVPublication[] = [
 
 const workshopPapers: CVPublication[] = [
   {
-    id: 'W.6',
-    year: '2026',
-    venue:
-      'IUI 2026 Workshop on Trustworthy Computer-Using Generalist Agents for Intelligent User Interfaces',
-    title:
-      'Beyond Task Completion: A Process-Oriented Framework for Evaluating Preference and Value Alignments in Computer-Using Agents',
-    authors:
-      'Yukun Yang, Simret Araya Gebreegziabher, Hojun Yoo, Charles Chiang, Chaoran Chen, Annalisa Szymanski, Hyo Jin Do, Zahra Ashktorab, Werner Geyer, Diego Gómez-Zará, and Toby Jia-Jun Li',
-  },
-  {
     id: 'W.5',
     year: '2025',
     venue: 'CCS 2025 Workshop on Human-Centered AI Privacy and Security',
@@ -360,6 +350,7 @@ const workshopPapers: CVPublication[] = [
       'Toward a Human-centered Evaluation Framework for Trustworthy LLM-powered GUI Agents',
     authors:
       'Chaoran Chen, Zhiping Zhang, Ibrahim Khalilov, Bingcan Guo, Simret A. Gebreegziabher, Yanfang Ye, Ziang Xiao, Yaxing Yao, Tianshi Li, and Toby Jia-Jun Li',
+    link: 'https://arxiv.org/abs/2504.17934',
   },
   {
     id: 'W.2',
@@ -369,6 +360,7 @@ const workshopPapers: CVPublication[] = [
     title: 'Evaluating the LLM Agents for Simulating Humanoid Behavior',
     authors:
       'Chaoran Chen, Bingsheng Yao, Yanfang Ye, Dakuo Wang, and Toby Jia-Jun Li',
+    link: 'https://heal-workshop.github.io/chi2024_papers/35_evaluating_the_llm_agents_for_.pdf',
   },
   {
     id: 'W.1',
@@ -389,6 +381,7 @@ const lightlyReviewedPublications: CVPublication[] = [
     title: 'EvalAgent: Interactive Comparative Evaluation of Computer-Using GUI Agents',
     authors:
       'Yukun Yang, Simret Araya Gebreegziabher, Hojun Yoo, Charles Chiang, Chaoran Chen, Annalisa Szymanski, Hyo Jin Do, Zahra Ashktorab, Werner Geyer, Diego Gómez-Zará, and Toby Jia-Jun Li',
+    link: 'https://dl.acm.org/doi/10.1145/3742414.3795096',
   },
   {
     id: 'L.1',
