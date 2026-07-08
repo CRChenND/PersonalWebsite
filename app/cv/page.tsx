@@ -141,14 +141,6 @@ type CVPublication = {
 const preprints: CVPublication[] = [
   {
     year: '2026',
-    id: 'P.5',
-    venue: 'arXiv preprint arXiv:2604.22191',
-    title: 'Behavioral Canaries: Auditing Private Retrieved Context Usage in RL Fine-Tuning',
-    authors: 'Chaoran Chen, Dayu Yuan, and Peter Kairouz',
-    link: 'https://arxiv.org/abs/2604.22191',
-  },
-  {
-    year: '2026',
     id: 'P.4',
     venue: 'arXiv preprint arXiv:2604.04918',
     title: 'Comparing Human Oversight Strategies for Computer-Use Agents',
@@ -201,6 +193,16 @@ const journalPapers: CVPublication[] = [
 ]
 
 const conferencePapers: CVPublication[] = [
+  {
+    id: 'C.12',
+    year: '2026',
+    venue:
+      'Accepted to the 3rd Conference on Language Modeling (COLM 2026)',
+    title:
+      'Behavioral Canaries: Auditing Private Retrieved Context Usage in RL Fine-Tuning',
+    authors: 'Chaoran Chen, Dayu Yuan, and Peter Kairouz',
+    link: 'https://arxiv.org/abs/2604.22191',
+  },
   {
     id: 'C.11',
     year: '2026',

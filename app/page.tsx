@@ -11,6 +11,51 @@ import PublicationList from '../components/publicationList'
 
 const publicationsData = [
   {
+    title: 'Behavioral Canaries: Auditing Private Retrieved Context Usage in RL Fine-Tuning',
+    authors: ['Chaoran Chen', 'Dayu Yuan', 'Peter Kairouz'],
+    venue: 'Accepted to the 3rd Conference on Language Modeling (COLM 2026)',
+    image: 'colm_canary.png',
+    paperLink: 'https://arxiv.org/abs/2604.22191',
+    pdfLink: 'https://arxiv.org/pdf/2604.22191',
+  },
+  {
+    title:
+      'Programming by Chat: A Large-Scale Behavioral Analysis of 11,579 Real-World AI-Assisted IDE Sessions',
+    authors: [
+      'Ningzhi Tang*',
+      'Chaoran Chen*',
+      'Zian Fang',
+      'Gelei Xu',
+      'Maria Dhakal',
+      'Yiyu Shi',
+      'Collin McMillan',
+      'Yu Huang',
+      'Toby Jia-Jun Li',
+    ],
+    venue:
+      'Accepted to the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026)',
+    image: 'ase2026.png',
+    paperLink: 'https://arxiv.org/abs/2604.00436',
+    pdfLink: 'https://arxiv.org/pdf/2604.00436',
+  },
+  {
+    title:
+      "Stayin' Aligned Over Time: Towards Longitudinal Human-LLM Alignment via Contextual Reflection and Privacy-Preserving Behavioral Data",
+    authors: [
+      'Simret Araya Gebreegziabher',
+      'Allison E Sproul',
+      'Yinuo Yang',
+      'Chaoran Chen',
+      'Diego Gómez-Zará',
+      'Toby Jia-Jun Li',
+    ],
+    venue:
+      'Conditionally accepted to the 39th Annual ACM Symposium on User Interface Software and Technology (UIST 2026)',
+    image: 'uist2026.png',
+    paperLink: 'https://arxiv.org/abs/2605.04029',
+    pdfLink: 'https://arxiv.org/pdf/2605.04029',
+  },
+  {
     title:
       'The Obvious Invisible Threat: LLM-Powered GUI Agents’ Vulnerability to Fine-Print Injections',
     authors: [
