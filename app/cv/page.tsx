@@ -218,7 +218,7 @@ const conferencePapers: CVPublication[] = [
     id: 'C.10',
     year: '2026',
     venue:
-      'Conditionally accepted to the 39th Annual ACM Symposium on User Interface Software and Technology (UIST 2026)',
+      'Accepted to the 39th Annual ACM Symposium on User Interface Software and Technology (UIST 2026)',
     title:
       "Stayin' Aligned Over Time: Towards Longitudinal Human-LLM Alignment via Contextual Reflection and Privacy-Preserving Behavioral Data",
     authors:

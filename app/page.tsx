@@ -50,7 +50,7 @@ const publicationsData = [
       'Toby Jia-Jun Li',
     ],
     venue:
-      'Conditionally accepted to the 39th Annual ACM Symposium on User Interface Software and Technology (UIST 2026)',
+      'Accepted to the 39th Annual ACM Symposium on User Interface Software and Technology (UIST 2026)',
     image: 'uist2026.png',
     paperLink: 'https://arxiv.org/abs/2605.04029',
     pdfLink: 'https://arxiv.org/pdf/2605.04029',
